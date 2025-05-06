@@ -25,8 +25,8 @@ app.add_middleware(
 )
 
 # Load model and class indices
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "../model/ecg_model_final.h5")
-CLASS_INDICES_PATH = os.path.join(os.path.dirname(__file__), "../model/class_indices.json")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "../model/ecg_model_final_balanced.h5")
+CLASS_INDICES_PATH = os.path.join(os.path.dirname(__file__), "../model/class_indices_balanced.json")
 
 model = None
 class_indices = None
